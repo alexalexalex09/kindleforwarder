@@ -1,0 +1,24 @@
+# Security - NEVER commit your passwords
+.env
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments (if you ever isolate your pip installs)
+venv/
+.venv/
+env/
+ENV/
+
+# Log Files (prevents your local bot history from uploading)
+*.log
+kindlebot_log.txt
+
+# Editor / IDE Settings (since you used VSCode)
+.vscode/
+
+# Windows OS generated files
+Thumbs.db
+desktop.ini
